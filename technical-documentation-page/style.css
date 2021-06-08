@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;1,100;1,400&display=swap');
+
+body{
+    font-family: Poppins;
+    display: flex;
+    margin: 0;
+}
+
+nav{
+    width: 300px;
+    margin-right: 1em;
+    position: fixed;
+    height: 100%;
+}
+nav header{
+    padding: 1em;
+    font-size: 1.4em;
+    font-weight: bold;
+    background-color: aqua;
+    text-shadow: 0px 0px 16px rgb(0, 18, 46);
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    border-right: gray solid 2px;
+    margin-top: 0;
+    height:90%;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+nav li{
+    padding: 1em ;
+    border-top: black solid 1px;
+    border-top: black solid 1px;
+}
+
+nav li a{    
+    text-decoration: none;
+}
+
+#main-doc{
+    position: absolute;
+    margin-left: 400px;
+    margin-right: 50px;
+    text-align: justify;
+}
+section{
+    padding-top: 2em;
+}
+section header{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+code{
+    background-color: #dfd2d2;
+    line-height: 2;
+    padding: 1em;
+    display: block;
+    margin: 1em;
+    border-radius: 5px;
+}
+@media (max-width: 1000px) {
+    body{
+        display: block;
+    }
+    nav{
+        width: auto;
+        height: 2em;
+        margin-right:0;
+        position: relative;
+        height: 20em;
+        padding-bottom: 3em;
+        border-bottom: indianred solid 2px;
+    }
+    nav header{
+        text-align: center;
+    }
+    nav ul{ 
+              
+        overflow-y: auto;
+        overflow-x: hidden;  
+        border-right: none;  
+    }
+    #main-doc{
+        position: absolute;
+        margin-left: 2em;
+        margin-right: 50px;
+        text-align: justify;
+    }
+
+}

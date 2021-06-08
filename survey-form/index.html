@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div id="forms">
+        <form id="survey-form" action="submit">
+            <label class="labels" id="name-label" for="name">Name</label><br>
+            <input class="inputs" type="text" id="name" name="name" placeholder="Enter your name" required><br>
+
+            <label class="labels" id="email-label" for="email">Email</label><br>
+            <input class="inputs" type="email" id="email" name="email" placeholder="Enter your email" required><br>
+
+            <label class="labels" id="number-label" for="number">Age (optional)</label><br>
+            <input class="inputs" type="number" id="number" name="number" min="1" max="99" placeholder="Age"><br>
+            
+            <label for="reccomend"> Would you recommend freeCodeCamp to a friend?</label> <br><br>
+                <input value="definitely" class="radio" type="radio" name="reccomend">Definitely  <br>
+                <input value="maybe" class="radio" type="radio" name="reccomend">Maybe  <br>
+                <input value="not-sure" class="radio" type="radio" name="reccomend">Not Sure  <br>
+            </label><br>
+
+            <label for="role">Which option best describes your current role?</label><br><br>
+            <select name="role" id="dropdown">
+                <option id="disabled" value="disabled" disabled selected>Select Current Role</option>
+                <option value="student">Student</option>
+                <option value="full-time-job">Full Time Job</option>
+                <option value="full-time-learner">Full Time Learner</option>
+                <option value="prefer-not-to-say">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="improve">What would you like to see improved? (Check all that apply)</label><br><br>
+
+            <label  class="check" for="frontend"><input value="frontend" id="frontend" type="checkbox" name="improve"> Front-end Projects</label><br>
+            <label  class="check" for="backend"><input value="backend" id="backend" type="checkbox" name="improve"> Back-end Projects</label><br>
+            <label  class="check" for="data-visualisation"><input value="data-visualisation" id="data-visualisation" type="checkbox" name="improve"> Data Visualization</label><br>
+            <label  class="check" for="challenges"><input value="challenges" id="challenges" type="checkbox" name="challenges"> Challenges</label><br>
+            <label  class="check" for="open-source"><input value="open-source" id="open-source" type="checkbox" name="improve"> Open Source Community</label><br><br>
+
+            
+
+            <textarea name="" id="textarea" cols="30" rows="10" placeholder="Enter your comment here..."></textarea><br>
+
+            <input  type="submit" name="submit" id="submit" value="Submit">
+        </form>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

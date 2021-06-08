@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    background-image: 
+        linear-gradient(rgba(0,27,27, 0.8),
+        rgba(103, 80, 207, 0.8)), 
+        url(VQacDh.webp);
+        font-family: Comfortaa;
+        color: white;
+        font-size: 18px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+
+}
+h1{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 0;
+}
+p{
+    margin-top: 5px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+#forms{
+    width: 35%;
+    height: auto;
+    background-color: rgba(27, 27, 50, 0.6);
+    border-radius: 5px;
+    margin: 20px auto;    
+    padding: 20px;
+    font-family: Comfortaa;
+   
+}
+
+.inputs{
+    width: 100%;
+    height: 2.5em;
+    
+    
+    font-size: 1em;
+    border-radius: 5px;
+    border: black solid 1px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: Comfortaa;
+    
+}
+.radio{
+    margin-bottom: 20px;
+    margin: 10px 5px 0 20px;
+}
+#dropdown{
+    width: 100%;
+    height: 3em;
+    font-family: Comfortaa;
+    font-size: 18px;
+    color: gray;
+    border-radius: 5px;
+
+}
+option{
+    font-family: Comfortaa;
+    font-size: 18px;
+    color: black;
+    
+}
+#disabled{
+    font-family: Comfortaa;
+
+}
+
+
+#textarea{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    font-family: Comfortaa;
+    font-size: 18px;
+    border-radius: 5px;
+    resize: none;
+
+
+}
+#submit{
+    width: 100%;
+    height: 40px;
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    font-family: Comfortaa;
+    font-weight: bold;
+    color: white
+}
+.check input{
+    margin: 10px 5px 0 20px;
+
+}

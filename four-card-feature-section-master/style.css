@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+}
+* {
+  box-sizing: border-box;
+
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding-top: 85px;
+  background-color: var(--very-light-gray);
+  min-width: 900px;
+  
+}
+main {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+}
+h1 {
+  color: var(--very-dark-blue);
+  font-weight: 200;
+  text-align: center;
+}
+h1 span {
+  font-weight: 600;
+  display: block;
+}
+p {
+  max-width: calc(1440px / 2);
+  text-align: center;
+  margin: 40px auto;
+  color: var(--grayish-blue);
+}
+section{
+    text-align: center;
+}
+
+
+article {
+  border-top: 5px solid var(--red);
+  border-radius: 5px;
+  box-shadow: 0px 6px 15px 2px rgba(0, 0, 0, 0.219);
+  width: 25%;
+  height: 300px;
+  display: inline-block;
+  margin: 15px;
+  padding-right: 10px;
+}
+article h2 {
+text-align: left;
+  margin-left: 20px;
+  color: var(--very-dark-blue);
+}
+
+article p {
+  text-align: left;
+  margin-left: 20px;
+}
+
+img{
+    position: relative;
+    top: 40px;
+    left: 80px;
+}
+.builder {
+  border-top: 5px solid var(--very-dark-blue);
+}
+.karma{
+      border-top: 5px solid var(--orange);
+}
+.calculator{
+      border-top: 5px solid var(--blue);
+
+}
+section article:nth-child(1){
+    transform: translateY(150px);
+}
+section article:nth-child(3){
+    transform: translateY(150px);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media(max-width:768px){
+    section article:nth-child(1){
+    transform: translateY(0px);
+}
+section article:nth-child(3){
+    transform: translateY(0px);
+}
+article{
+    display: block;
+    width: 100%;
+    margin:0;
+    margin-top: 20px;
+}
+body{
+    padding: 20px;
+    margin: 0;
+      min-width: 300px;
+
+}
+main{
+    margin:0;
+    padding:0;
+}
+section{
+    margin: 0;
+    padding:0;
+}
+article img{
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 450px;
+}
+}

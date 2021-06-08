@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;1,100;1,400&display=swap');
+
+body{
+    font-family: Poppins;
+    background: whitesmoke;
+    min-width:800px;        /* Suppose you want minimum width of 1000px */
+    width: auto !important;  /* Firefox will set width as auto */
+    margin:0;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    min-width:800px;        /* Suppose you want minimum width of 1000px */
+
+}
+#header-img{
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2em;
+    padding-right: 3em;
+    font-weight: bold;
+}
+#pricing-style{
+    border: #007af3 solid 2px;
+    border-radius: 1.6em;
+    padding: 0 0.3em 0 0.3em;
+    color: #007af3;
+}
+#pricing-style:hover{
+    background-color: #007af3;
+    color: white;
+}
+#nav-elements{    
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-bar{
+    width: auto;
+    margin-right: 20px;
+}
+h1{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: -3px 2px 18px rgba(150, 150, 150, 1);
+}
+img{
+    width: 50px;
+    height: 50px;
+    
+}
+#form{
+    display: flex;
+    flex-direction: column;    
+    margin: 0 auto;
+}
+#email{
+    font-family: Poppins;
+    margin: 0.5em auto;
+    width: 200px;
+    height: 2em;
+    background-color:seashell;
+    border: black solid 1px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 3px rgba(140,100,255,0.61);
+
+}
+#submit{
+    width: auto;
+    margin: 0.5em auto 5em;
+    height: 2em;
+    background-color: #007af3;
+    color: white;
+    font-family: Poppins;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-color: #01468b;
+    cursor: pointer;
+}
+#features{
+    width: 80%;
+    margin: 5em  auto;
+}
+.features-cnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-right: 2em;
+}
+.features-cnt img{
+    margin-right: 2em;
+}
+
+#video-cnt{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+iframe{
+    box-shadow: 0px 0px 26px 3px rgba(140,100,255,0.61);
+
+}
+
+.all-pricing-cnt{
+    display: flex;
+    margin:10em 0 10em 0;
+    
+}
+
+.pricing-cnt{
+    width: auto;    
+    justify-content: center;
+    align-content: center;
+    border:  none;
+    border-radius: 10%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    background: #007af3;
+    padding: 2em;
+    color: white;
+    box-shadow: 0px 0px 26px 3px rgba(140,100,255,0.61);
+}
+.pricing-cnt:hover{
+    box-shadow: 0px 0px 26px 3px rgba(116, 141, 6, 0.993);
+
+}
+.pricing-cnt h3{
+    width: auto;
+    margin: 0;      
+}
+.select-btn{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 1em;
+    width: 10em;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f3003d67;
+}
+.select-btn:hover{
+    background-color: white;
+    color: #240852;
+    box-shadow: 0px 0px 26px 3px rgba(208, 255, 0, 0.993);
+
+}
+.price{
+    font-size: 2em;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    background-color: rgb(175, 141, 197);
+}
+.privacy ul{
+    display: flex;
+    flex-direction: row;
+}
+.privacy a:hover{
+    color: white;
+}
+@media (max-width: 1000px){
+    iframe{
+        width: 60%;
+    }
+    .all-pricing-cnt{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto        
+    }
+    .pricing-cnt{
+        margin: 3em auto;
+        width: 30%;
+}

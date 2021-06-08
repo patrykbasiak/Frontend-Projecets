@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+--very-dark-blue: hsl(233, 47%, 7%);
+--dark-desaturated-blue:hsl(244, 38%, 16%);
+--soft-violet : hsl(277, 64%, 61%);
+--white : hsl(0, 0%, 100%);
+--slightly-transparent-white : hsla(0, 0%, 100%, 0.75);
+--slightly-transparent-white : hsla(0, 0%, 100%, 0.6);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card-picture{
+    background: url('./images/image-header-mobile.jpg') no-repeat center/cover;
+    height: 400px;
+}
+.card-overlay{
+    background: hsl(277, 64%, 61%, 0.5);
+    height: 400px;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--very-dark-blue);
+    text-align: center;
+    min-width: 400px;
+}
+.container{
+    background-color: var(--dark-desaturated-blue);
+    margin: 5em 2em;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+p{
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--slightly-transparent-white);
+}
+h4{
+    font-family: Inter;
+    color: var(--white);
+    text-align: center;
+}
+span{
+    color: var(--soft-violet);
+}
+ul{
+    color: var(--white);
+}
+li{
+    font-weight: bold;
+}
+.list p{
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px){
+    .container{
+        display: flex;    
+        flex-direction: row-reverse; 
+        margin: 8em 10em;   
+        
+    }
+    .card-picture{
+        width: 400px;
+        margin-bottom: 0;
+        height: auto;
+    }
+    .card-overlay{
+        height: 100%;
+    }
+    .info{
+        width: 50%;
+        margin-top: 4em;
+        text-align: left;
+        margin-left: 2em;
+                margin-right: 2em;
+                min-width: 360px;
+
+    }
+    h4{
+        text-align: left;
+        font-size: 2.5em;
+    }
+    .list{
+        padding: 1em;
+        display: flex;
+        margin-left: 0;
+        padding-left: 0;
+        
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        padding:1.5em;
+
+    }
+    li{
+        font-size: 2em;
+        margin-bottom: 0.7em;
+        list-style-type: none;
+    }
+    
+    
+  
+    
+}

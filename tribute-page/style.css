@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300&display=swap');
+#main{
+    background-color: rgb(255, 229, 229);
+    border-radius: 4px;
+    font-family: Ubuntu;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(46, 61, 61);
+}
+p{
+    text-align: center;   
+}
+
+#img-div{
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    padding: 15px;
+    
+}
+#image{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#img-caption{
+    text-align: center;
+}
+
+#tribute-info{
+    max-width: 550px;   
+    height: auto;
+    margin: 20px auto; 
+    line-height: 150%;   
+}
+h3{
+    text-align: center;
+}
+#list{
+    margin: 0 0 30px 0;
+    text-align: justify;
+}
+#wikipedia{
+    margin: 20px;
+    padding: 20px;
+}
+#qutation{
+    text-align: justify;
+    font-size: 95%;
+    font-style: italic;
+}
