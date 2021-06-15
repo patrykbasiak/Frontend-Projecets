@@ -39,7 +39,7 @@ npm run test
 
 * Website: https://patrykbasiak.netlify.app/
 * Github: [@patrykbasiak](https://github.com/patrykbasiak)
-* LinkedIn: [@Patryk Basiak](https://linkedin.com/in/Patryk Basiak)
+* LinkedIn: [@Patryk Basiak](https://linkedin.com/in/PatrykBasiak)
 
 ## Show your support
 
