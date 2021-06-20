@@ -53,9 +53,14 @@ Give a star if this project helped you!
 
 ![1](https://user-images.githubusercontent.com/37413799/122683795-e55fe780-d201-11eb-8db8-8bce6a7aac98.png)
 
-* Wiedo
+* Viedo
 
 ![1](https://user-images.githubusercontent.com/37413799/122683870-52737d00-d202-11eb-8c2b-cc820765945b.png)
+
+* Coming Soon Page
+
+![image](https://user-images.githubusercontent.com/37413799/122683894-73d46900-d202-11eb-91a2-6d6ad5cbeb9b.png)
+
 
 
 
