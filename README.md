@@ -49,5 +49,5 @@ Give a star if this project helped you!
 ***
 ## Screenshots
 
-#Tabs
+# Tabs
 ![1](https://user-images.githubusercontent.com/37413799/122683795-e55fe780-d201-11eb-8db8-8bce6a7aac98.png)
