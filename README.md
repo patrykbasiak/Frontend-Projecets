@@ -14,6 +14,7 @@
 * Bootstrap
 * Tailwind
 * SASS
+* Firebase
 
 ## Install
 
