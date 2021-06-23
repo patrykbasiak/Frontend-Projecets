@@ -86,6 +86,10 @@ Give a star if this project helped you!
 
 ![image](https://user-images.githubusercontent.com/37413799/122684422-91ef9880-d205-11eb-9c11-d1ddafe20b38.png)
 
+* Pricing component
+
+![pricing-compo](https://user-images.githubusercontent.com/37413799/123071276-d1400400-d414-11eb-8a3a-ce5620849946.png)
+
 * Intro Component
 
 ![image](https://user-images.githubusercontent.com/37413799/122684433-a3d13b80-d205-11eb-8986-0da3cc7b23cd.png)
