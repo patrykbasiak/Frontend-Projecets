@@ -14,6 +14,7 @@
 * Bootstrap
 * Tailwind
 * SASS
+* Firebase
 
 ## Install
 
@@ -69,8 +70,8 @@ Give a star if this project helped you!
 * Countdown
  
  ![image](https://user-images.githubusercontent.com/37413799/122683988-1bea3200-d203-11eb-919a-f3e5451abf31.png)
-
-* Firegram
+ 
+* Firegram (React)
 
 ![firegram](https://user-images.githubusercontent.com/37413799/123069627-3c88d680-d413-11eb-9bc2-14c2046483b4.png)
 
@@ -85,6 +86,10 @@ Give a star if this project helped you!
 * Hangman
 
 ![image](https://user-images.githubusercontent.com/37413799/122684422-91ef9880-d205-11eb-9c11-d1ddafe20b38.png)
+
+* Pricing component
+
+![pricing-compo](https://user-images.githubusercontent.com/37413799/123071276-d1400400-d414-11eb-8a3a-ce5620849946.png)
 
 * Intro Component
 
