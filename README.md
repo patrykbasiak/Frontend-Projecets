@@ -62,6 +62,10 @@ Give a star if this project helped you!
 
 ![image](https://user-images.githubusercontent.com/37413799/122683949-d463a600-d202-11eb-9204-1226ae0121c2.png)
 
+* Calculator
+
+![image](https://user-images.githubusercontent.com/37413799/126317846-d0c90aa3-697d-4faf-811d-7b33f9b7750c.png)
+
 
 * Cocktails (React)
 
