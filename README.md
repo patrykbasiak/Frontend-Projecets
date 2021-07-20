@@ -172,7 +172,6 @@ Give a star if this project helped you!
 ![image](https://user-images.githubusercontent.com/37413799/122684587-7f299380-d206-11eb-834e-6d04896af7bc.png)
 
 
-https://responsive-web-design-pb.netlify.app/
 
 
 
